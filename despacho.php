@@ -1,7 +1,7 @@
 <?php
 
 class despacho extends espacio{
-    private $nombre;
+    private string $nombre;
     
     function __construct($puntoWifi, $puntosRed, $nombre) {
         $this->nombre = $nombre;

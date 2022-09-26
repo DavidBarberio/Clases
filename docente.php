@@ -1,7 +1,7 @@
 <?php
 
 class docente extends persona{
-    private $sueldo;
+    private int $sueldo;
     
     function __construct($name, $dni, $email, $sueldo) {
         $this->sueldo = $sueldo;

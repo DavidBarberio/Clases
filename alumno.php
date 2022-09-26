@@ -1,8 +1,8 @@
 <?php
 
 class alumno extends persona{
-    private $codMatricula;
-    private $ciclo;
+    private string $codMatricula;
+    private string $ciclo;
     
     function __construct($name, $dni, $email, $codMatricula, $ciclo) {
         $this->codMatricula = $codMatricula;

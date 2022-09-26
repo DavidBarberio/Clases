@@ -1,9 +1,9 @@
 <?php
 
 abstract class persona{
-    private $name;
-    private $dni;
-    private $email;
+    private string $name;
+    private string $dni;
+    private string $email;
     
     function __construct($name, $dni, $email) {
         $this->name = $name;

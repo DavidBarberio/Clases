@@ -1,8 +1,8 @@
 <?php
 
 class ordenador{
-    public $SO;
-    public $CodHZ;
+    public string $SO;
+    public string $CodHZ;
     public bool $esSobremesa;
     
     function __construct($SO, $CodHZ, $esSobremesa) {

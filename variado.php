@@ -1,7 +1,7 @@
 <?php
 
 class variado extends espacio{
-    private $tipo;
+    private string $tipo;
     
     function __construct($puntoWifi, $puntosRed, $tipo) {
         $this->tipo = $tipo;

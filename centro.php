@@ -1,8 +1,8 @@
 <?php
 
 class centro{
-    private $cod;
-    private $nombre;
+    private int $cod;
+    private string $nombre;
     
     function __construct($cod, $nombre) {
         $this->cod = $cod;
